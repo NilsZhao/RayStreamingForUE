@@ -267,6 +267,7 @@ TArray<URayStreamingComponent*> FRayConnector::GetRegisteredStreamingComponent()
 bool FRayConnector::ShouldReconnect() const
 {
 	return bReconnectFlag;
+	
 }
 
 void FRayConnector::RunConsoleCommand(const FString& CommandMessage)
