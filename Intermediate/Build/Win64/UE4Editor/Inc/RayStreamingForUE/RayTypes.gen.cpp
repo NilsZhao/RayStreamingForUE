@@ -100,7 +100,7 @@ static struct FScriptStruct_RayStreamingForUE_StaticRegisterNativesFRayTouchInpu
 {
 	FScriptStruct_RayStreamingForUE_StaticRegisterNativesFRayTouchInput()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("RayTouchInput")),new UScriptStruct::TCppStructOps<FRayTouchInput>);
+		UScriptStruct::DeferCppStructOps<FRayTouchInput>(FName(TEXT("RayTouchInput")));
 	}
 } ScriptStruct_RayStreamingForUE_StaticRegisterNativesFRayTouchInput;
 	struct Z_Construct_UScriptStruct_FRayTouchInput_Statics
@@ -232,7 +232,7 @@ static struct FScriptStruct_RayStreamingForUE_StaticRegisterNativesFRayMouseWhee
 {
 	FScriptStruct_RayStreamingForUE_StaticRegisterNativesFRayMouseWheelInput()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("RayMouseWheelInput")),new UScriptStruct::TCppStructOps<FRayMouseWheelInput>);
+		UScriptStruct::DeferCppStructOps<FRayMouseWheelInput>(FName(TEXT("RayMouseWheelInput")));
 	}
 } ScriptStruct_RayStreamingForUE_StaticRegisterNativesFRayMouseWheelInput;
 	struct Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics
@@ -340,7 +340,7 @@ static struct FScriptStruct_RayStreamingForUE_StaticRegisterNativesFRayMouseKeyI
 {
 	FScriptStruct_RayStreamingForUE_StaticRegisterNativesFRayMouseKeyInput()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("RayMouseKeyInput")),new UScriptStruct::TCppStructOps<FRayMouseKeyInput>);
+		UScriptStruct::DeferCppStructOps<FRayMouseKeyInput>(FName(TEXT("RayMouseKeyInput")));
 	}
 } ScriptStruct_RayStreamingForUE_StaticRegisterNativesFRayMouseKeyInput;
 	struct Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics
@@ -465,7 +465,7 @@ static struct FScriptStruct_RayStreamingForUE_StaticRegisterNativesFRayMouseMove
 {
 	FScriptStruct_RayStreamingForUE_StaticRegisterNativesFRayMouseMoveInput()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("RayMouseMoveInput")),new UScriptStruct::TCppStructOps<FRayMouseMoveInput>);
+		UScriptStruct::DeferCppStructOps<FRayMouseMoveInput>(FName(TEXT("RayMouseMoveInput")));
 	}
 } ScriptStruct_RayStreamingForUE_StaticRegisterNativesFRayMouseMoveInput;
 	struct Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics
@@ -585,7 +585,7 @@ static struct FScriptStruct_RayStreamingForUE_StaticRegisterNativesFRayCharInput
 {
 	FScriptStruct_RayStreamingForUE_StaticRegisterNativesFRayCharInput()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("RayCharInput")),new UScriptStruct::TCppStructOps<FRayCharInput>);
+		UScriptStruct::DeferCppStructOps<FRayCharInput>(FName(TEXT("RayCharInput")));
 	}
 } ScriptStruct_RayStreamingForUE_StaticRegisterNativesFRayCharInput;
 	struct Z_Construct_UScriptStruct_FRayCharInput_Statics
@@ -686,7 +686,7 @@ static struct FScriptStruct_RayStreamingForUE_StaticRegisterNativesFRayKeyInput
 {
 	FScriptStruct_RayStreamingForUE_StaticRegisterNativesFRayKeyInput()
 	{
-		UScriptStruct::DeferCppStructOps(FName(TEXT("RayKeyInput")),new UScriptStruct::TCppStructOps<FRayKeyInput>);
+		UScriptStruct::DeferCppStructOps<FRayKeyInput>(FName(TEXT("RayKeyInput")));
 	}
 } ScriptStruct_RayStreamingForUE_StaticRegisterNativesFRayKeyInput;
 	struct Z_Construct_UScriptStruct_FRayKeyInput_Statics

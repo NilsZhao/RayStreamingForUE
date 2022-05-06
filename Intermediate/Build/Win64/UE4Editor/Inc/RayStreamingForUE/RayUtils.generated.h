@@ -62,7 +62,7 @@ public: \
 	NO_API URayUtils(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URayUtils) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URayUtils); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URayUtils); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URayUtils); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API URayUtils(URayUtils&&); \
@@ -79,7 +79,7 @@ private: \
 	NO_API URayUtils(const URayUtils&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URayUtils); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URayUtils); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URayUtils); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URayUtils)
 
 

@@ -35,7 +35,7 @@ void EmptyLinkFunctionForGeneratedCodeRayStreamingForUE_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x83077FAB,
+				0x93827557,
 				0x6E71480D,
 				METADATA_PARAMS(nullptr, 0)
 			};

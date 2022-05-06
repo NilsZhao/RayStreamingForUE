@@ -146,7 +146,7 @@ public: \
 	NO_API URayStreamingComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(URayStreamingComponent) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URayStreamingComponent); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URayStreamingComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URayStreamingComponent); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API URayStreamingComponent(URayStreamingComponent&&); \
@@ -161,7 +161,7 @@ private: \
 	NO_API URayStreamingComponent(const URayStreamingComponent&); \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, URayStreamingComponent); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URayStreamingComponent); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(URayStreamingComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(URayStreamingComponent)
 
 
