@@ -1,0 +1,15 @@
+{
+	"OutputFiles": [
+		"RayConnector.cpp.obj",
+		"RayInputDevice.cpp.obj",
+		"RayStreamingComponent.cpp.obj",
+		"RayStreamingForUEModule.cpp.obj",
+		"RayStreamingSettings.cpp.obj",
+		"RayUtils.cpp.obj",
+		"RayStreamingComponent.gen.cpp.obj",
+		"RayStreamingForUE.init.gen.cpp.obj",
+		"RayStreamingSettings.gen.cpp.obj",
+		"RayTypes.gen.cpp.obj",
+		"RayUtils.gen.cpp.obj"
+	]
+}
