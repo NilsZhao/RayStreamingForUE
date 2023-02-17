@@ -1,8 +1,7 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-//using UnrealBuildTool;
-namespace UnrealBuildTool.Rules
-{
+using UnrealBuildTool;
+
 public class RayStreamingForUE : ModuleRules
 {
 	public RayStreamingForUE(ReadOnlyTargetRules Target) : base(Target)
@@ -65,12 +64,5 @@ public class RayStreamingForUE : ModuleRules
 				// ... add any modules that your module loads dynamically here ...
 			}
 			);
-        if (Target.Type == TargetType.Editor)
-        {
-            PrivateDependencyModuleNames.Add("EditorFramework");
-            PrivateDependencyModuleNames.Add("UnrealEd");
-            PrivateDependencyModuleNames.Add("GameProjectGeneration");
-        }
-    }
-}
+	}
 }

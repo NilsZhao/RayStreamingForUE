@@ -1,0 +1,15 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "d:\\ue5testproject\\raywebsockettest\\plugins\\raystreamingforue\\intermediate\\build\\win64\\unrealeditor\\inc\\raystreamingforue\\uht\\rayutils.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\ue5testproject\\raywebsockettest\\intermediate\\build\\win64\\raywebsockettesteditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\ue5testproject\\raywebsockettest\\plugins\\raystreamingforue\\intermediate\\build\\win64\\unrealeditor\\development\\raystreamingforue\\definitions.raystreamingforue.h",
+            "d:\\ue5testproject\\raywebsockettest\\plugins\\raystreamingforue\\source\\raystreamingforue\\public\\rayutils.h",
+            "d:\\ue5testproject\\raywebsockettest\\plugins\\raystreamingforue\\intermediate\\build\\win64\\unrealeditor\\inc\\raystreamingforue\\uht\\rayutils.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
