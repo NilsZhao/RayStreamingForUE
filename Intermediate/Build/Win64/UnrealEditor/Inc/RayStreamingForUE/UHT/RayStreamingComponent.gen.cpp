@@ -42,6 +42,10 @@ void EmptyLinkFunctionForGeneratedCodeRayStreamingComponent() {}
 		}
 		return ReturnFunction;
 	}
+void FOnConnectedSignature_DelegateWrapper(const FMulticastScriptDelegate& OnConnectedSignature)
+{
+	OnConnectedSignature.ProcessMulticastDelegate<UObject>(NULL);
+}
 	struct Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature_Statics
 	{
 		struct _Script_RayStreamingForUE_eventOnConnectionErrorSignature_Parms
@@ -82,6 +86,16 @@ void EmptyLinkFunctionForGeneratedCodeRayStreamingComponent() {}
 		}
 		return ReturnFunction;
 	}
+void FOnConnectionErrorSignature_DelegateWrapper(const FMulticastScriptDelegate& OnConnectionErrorSignature, const FString& Error)
+{
+	struct _Script_RayStreamingForUE_eventOnConnectionErrorSignature_Parms
+	{
+		FString Error;
+	};
+	_Script_RayStreamingForUE_eventOnConnectionErrorSignature_Parms Parms;
+	Parms.Error=Error;
+	OnConnectionErrorSignature.ProcessMulticastDelegate<UObject>(&Parms);
+}
 	struct Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics
 	{
 		struct _Script_RayStreamingForUE_eventOnClosedSignature_Parms
@@ -135,6 +149,20 @@ void EmptyLinkFunctionForGeneratedCodeRayStreamingComponent() {}
 		}
 		return ReturnFunction;
 	}
+void FOnClosedSignature_DelegateWrapper(const FMulticastScriptDelegate& OnClosedSignature, int32 StatusCode, const FString& Reason, bool bWasClean)
+{
+	struct _Script_RayStreamingForUE_eventOnClosedSignature_Parms
+	{
+		int32 StatusCode;
+		FString Reason;
+		bool bWasClean;
+	};
+	_Script_RayStreamingForUE_eventOnClosedSignature_Parms Parms;
+	Parms.StatusCode=StatusCode;
+	Parms.Reason=Reason;
+	Parms.bWasClean=bWasClean ? true : false;
+	OnClosedSignature.ProcessMulticastDelegate<UObject>(&Parms);
+}
 	struct Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature_Statics
 	{
 		struct _Script_RayStreamingForUE_eventOnMessageSignature_Parms
@@ -175,6 +203,16 @@ void EmptyLinkFunctionForGeneratedCodeRayStreamingComponent() {}
 		}
 		return ReturnFunction;
 	}
+void FOnMessageSignature_DelegateWrapper(const FMulticastScriptDelegate& OnMessageSignature, const FString& Message)
+{
+	struct _Script_RayStreamingForUE_eventOnMessageSignature_Parms
+	{
+		FString Message;
+	};
+	_Script_RayStreamingForUE_eventOnMessageSignature_Parms Parms;
+	Parms.Message=Message;
+	OnMessageSignature.ProcessMulticastDelegate<UObject>(&Parms);
+}
 	struct Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature_Statics
 	{
 		struct _Script_RayStreamingForUE_eventOnRawMessageSignature_Parms
@@ -210,6 +248,16 @@ void EmptyLinkFunctionForGeneratedCodeRayStreamingComponent() {}
 		}
 		return ReturnFunction;
 	}
+void FOnRawMessageSignature_DelegateWrapper(const FMulticastScriptDelegate& OnRawMessageSignature, const TArray<uint8>& Data)
+{
+	struct _Script_RayStreamingForUE_eventOnRawMessageSignature_Parms
+	{
+		TArray<uint8> Data;
+	};
+	_Script_RayStreamingForUE_eventOnRawMessageSignature_Parms Parms;
+	Parms.Data=Data;
+	OnRawMessageSignature.ProcessMulticastDelegate<UObject>(&Parms);
+}
 	struct Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature_Statics
 	{
 		struct _Script_RayStreamingForUE_eventOnMessageSentSignature_Parms
@@ -250,6 +298,16 @@ void EmptyLinkFunctionForGeneratedCodeRayStreamingComponent() {}
 		}
 		return ReturnFunction;
 	}
+void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnMessageSentSignature, const FString& MessageString)
+{
+	struct _Script_RayStreamingForUE_eventOnMessageSentSignature_Parms
+	{
+		FString MessageString;
+	};
+	_Script_RayStreamingForUE_eventOnMessageSentSignature_Parms Parms;
+	Parms.MessageString=MessageString;
+	OnMessageSentSignature.ProcessMulticastDelegate<UObject>(&Parms);
+}
 	DEFINE_FUNCTION(URayStreamingComponent::execGetRegisteredStreamingComponent)
 	{
 		P_FINISH;
@@ -1003,15 +1061,15 @@ void EmptyLinkFunctionForGeneratedCodeRayStreamingComponent() {}
 		return URayStreamingComponent::StaticClass();
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(URayStreamingComponent);
-	struct Z_CompiledInDeferFile_FID_RayWebsocketTest_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingComponent_h_Statics
+	struct Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingComponent_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_RayWebsocketTest_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingComponent_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingComponent_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_URayStreamingComponent, URayStreamingComponent::StaticClass, TEXT("URayStreamingComponent"), &Z_Registration_Info_UClass_URayStreamingComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(URayStreamingComponent), 3977800036U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_RayWebsocketTest_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingComponent_h_1423111072(TEXT("/Script/RayStreamingForUE"),
-		Z_CompiledInDeferFile_FID_RayWebsocketTest_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_RayWebsocketTest_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingComponent_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingComponent_h_1423111072(TEXT("/Script/RayStreamingForUE"),
+		Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

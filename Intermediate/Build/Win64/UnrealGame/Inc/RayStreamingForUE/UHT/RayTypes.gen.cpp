@@ -26,7 +26,7 @@ void EmptyLinkFunctionForGeneratedCodeRayTypes() {}
 	{
 		if (!Z_Registration_Info_UEnum_ERayTouchType.OuterSingleton)
 		{
-			Z_Registration_Info_UEnum_ERayTouchType.OuterSingleton = GetStaticEnum(Z_Construct_UEnum_RayStreamingForUE_ERayTouchType, Z_Construct_UPackage__Script_RayStreamingForUE(), TEXT("ERayTouchType"));
+			Z_Registration_Info_UEnum_ERayTouchType.OuterSingleton = GetStaticEnum(Z_Construct_UEnum_RayStreamingForUE_ERayTouchType, (UObject*)Z_Construct_UPackage__Script_RayStreamingForUE(), TEXT("ERayTouchType"));
 		}
 		return Z_Registration_Info_UEnum_ERayTouchType.OuterSingleton;
 	}
@@ -81,7 +81,7 @@ class UScriptStruct* FRayKeyInput::StaticStruct()
 {
 	if (!Z_Registration_Info_UScriptStruct_RayKeyInput.OuterSingleton)
 	{
-		Z_Registration_Info_UScriptStruct_RayKeyInput.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FRayKeyInput, Z_Construct_UPackage__Script_RayStreamingForUE(), TEXT("RayKeyInput"));
+		Z_Registration_Info_UScriptStruct_RayKeyInput.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FRayKeyInput, (UObject*)Z_Construct_UPackage__Script_RayStreamingForUE(), TEXT("RayKeyInput"));
 	}
 	return Z_Registration_Info_UScriptStruct_RayKeyInput.OuterSingleton;
 }
@@ -182,7 +182,7 @@ class UScriptStruct* FRayCharInput::StaticStruct()
 {
 	if (!Z_Registration_Info_UScriptStruct_RayCharInput.OuterSingleton)
 	{
-		Z_Registration_Info_UScriptStruct_RayCharInput.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FRayCharInput, Z_Construct_UPackage__Script_RayStreamingForUE(), TEXT("RayCharInput"));
+		Z_Registration_Info_UScriptStruct_RayCharInput.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FRayCharInput, (UObject*)Z_Construct_UPackage__Script_RayStreamingForUE(), TEXT("RayCharInput"));
 	}
 	return Z_Registration_Info_UScriptStruct_RayCharInput.OuterSingleton;
 }
@@ -266,7 +266,7 @@ class UScriptStruct* FRayMouseMoveInput::StaticStruct()
 {
 	if (!Z_Registration_Info_UScriptStruct_RayMouseMoveInput.OuterSingleton)
 	{
-		Z_Registration_Info_UScriptStruct_RayMouseMoveInput.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FRayMouseMoveInput, Z_Construct_UPackage__Script_RayStreamingForUE(), TEXT("RayMouseMoveInput"));
+		Z_Registration_Info_UScriptStruct_RayMouseMoveInput.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FRayMouseMoveInput, (UObject*)Z_Construct_UPackage__Script_RayStreamingForUE(), TEXT("RayMouseMoveInput"));
 	}
 	return Z_Registration_Info_UScriptStruct_RayMouseMoveInput.OuterSingleton;
 }
@@ -369,7 +369,7 @@ class UScriptStruct* FRayMouseKeyInput::StaticStruct()
 {
 	if (!Z_Registration_Info_UScriptStruct_RayMouseKeyInput.OuterSingleton)
 	{
-		Z_Registration_Info_UScriptStruct_RayMouseKeyInput.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FRayMouseKeyInput, Z_Construct_UPackage__Script_RayStreamingForUE(), TEXT("RayMouseKeyInput"));
+		Z_Registration_Info_UScriptStruct_RayMouseKeyInput.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FRayMouseKeyInput, (UObject*)Z_Construct_UPackage__Script_RayStreamingForUE(), TEXT("RayMouseKeyInput"));
 	}
 	return Z_Registration_Info_UScriptStruct_RayMouseKeyInput.OuterSingleton;
 }
@@ -477,7 +477,7 @@ class UScriptStruct* FRayMouseWheelInput::StaticStruct()
 {
 	if (!Z_Registration_Info_UScriptStruct_RayMouseWheelInput.OuterSingleton)
 	{
-		Z_Registration_Info_UScriptStruct_RayMouseWheelInput.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FRayMouseWheelInput, Z_Construct_UPackage__Script_RayStreamingForUE(), TEXT("RayMouseWheelInput"));
+		Z_Registration_Info_UScriptStruct_RayMouseWheelInput.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FRayMouseWheelInput, (UObject*)Z_Construct_UPackage__Script_RayStreamingForUE(), TEXT("RayMouseWheelInput"));
 	}
 	return Z_Registration_Info_UScriptStruct_RayMouseWheelInput.OuterSingleton;
 }
@@ -568,7 +568,7 @@ class UScriptStruct* FRayTouchInput::StaticStruct()
 {
 	if (!Z_Registration_Info_UScriptStruct_RayTouchInput.OuterSingleton)
 	{
-		Z_Registration_Info_UScriptStruct_RayTouchInput.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FRayTouchInput, Z_Construct_UPackage__Script_RayStreamingForUE(), TEXT("RayTouchInput"));
+		Z_Registration_Info_UScriptStruct_RayTouchInput.OuterSingleton = GetStaticStruct(Z_Construct_UScriptStruct_FRayTouchInput, (UObject*)Z_Construct_UPackage__Script_RayStreamingForUE(), TEXT("RayTouchInput"));
 	}
 	return Z_Registration_Info_UScriptStruct_RayTouchInput.OuterSingleton;
 }
@@ -842,18 +842,19 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayTouchInput>()
 	{
 		return URayTypes::StaticClass();
 	}
+	URayTypes::URayTypes(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(URayTypes);
 	URayTypes::~URayTypes() {}
-	struct Z_CompiledInDeferFile_FID_RayWebsocketTest_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics
+	struct Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_RayWebsocketTest_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::EnumInfo[] = {
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::EnumInfo[] = {
 		{ ERayTouchType_StaticEnum, TEXT("ERayTouchType"), &Z_Registration_Info_UEnum_ERayTouchType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2827600021U) },
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_RayWebsocketTest_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ScriptStructInfo[] = {
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ScriptStructInfo[] = {
 		{ FRayKeyInput::StaticStruct, Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewStructOps, TEXT("RayKeyInput"), &Z_Registration_Info_UScriptStruct_RayKeyInput, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FRayKeyInput), 1940993044U) },
 		{ FRayCharInput::StaticStruct, Z_Construct_UScriptStruct_FRayCharInput_Statics::NewStructOps, TEXT("RayCharInput"), &Z_Registration_Info_UScriptStruct_RayCharInput, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FRayCharInput), 3187242831U) },
 		{ FRayMouseMoveInput::StaticStruct, Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewStructOps, TEXT("RayMouseMoveInput"), &Z_Registration_Info_UScriptStruct_RayMouseMoveInput, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FRayMouseMoveInput), 1631152826U) },
@@ -861,11 +862,11 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayTouchInput>()
 		{ FRayMouseWheelInput::StaticStruct, Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewStructOps, TEXT("RayMouseWheelInput"), &Z_Registration_Info_UScriptStruct_RayMouseWheelInput, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FRayMouseWheelInput), 973774833U) },
 		{ FRayTouchInput::StaticStruct, Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewStructOps, TEXT("RayTouchInput"), &Z_Registration_Info_UScriptStruct_RayTouchInput, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FRayTouchInput), 1130902675U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_RayWebsocketTest_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_URayTypes, URayTypes::StaticClass, TEXT("URayTypes"), &Z_Registration_Info_UClass_URayTypes, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(URayTypes), 3401182851U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_RayWebsocketTest_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_3832792062(TEXT("/Script/RayStreamingForUE"),
-		Z_CompiledInDeferFile_FID_RayWebsocketTest_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_RayWebsocketTest_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_RayWebsocketTest_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_RayWebsocketTest_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ScriptStructInfo),
-		Z_CompiledInDeferFile_FID_RayWebsocketTest_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_RayWebsocketTest_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::EnumInfo));
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_3832792062(TEXT("/Script/RayStreamingForUE"),
+		Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
