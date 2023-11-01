@@ -62,11 +62,11 @@ void EmptyLinkFunctionForGeneratedCodeRayTypes() {}
 		"ERayTouchType",
 		"ERayTouchType",
 		Z_Construct_UEnum_RayStreamingForUE_ERayTouchType_Statics::Enumerators,
-		UE_ARRAY_COUNT(Z_Construct_UEnum_RayStreamingForUE_ERayTouchType_Statics::Enumerators),
 		RF_Public|RF_Transient|RF_MarkAsNative,
+		UE_ARRAY_COUNT(Z_Construct_UEnum_RayStreamingForUE_ERayTouchType_Statics::Enumerators),
 		EEnumFlags::None,
 		(uint8)UEnum::ECppForm::EnumClass,
-		METADATA_PARAMS(Z_Construct_UEnum_RayStreamingForUE_ERayTouchType_Statics::Enum_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UEnum_RayStreamingForUE_ERayTouchType_Statics::Enum_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UEnum_RayStreamingForUE_ERayTouchType_Statics::Enum_MetaDataParams), Z_Construct_UEnum_RayStreamingForUE_ERayTouchType_Statics::Enum_MetaDataParams)
 	};
 	UEnum* Z_Construct_UEnum_RayStreamingForUE_ERayTouchType()
 	{
@@ -128,7 +128,7 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayKeyInput>()
 		{ "ModuleRelativePath", "Public/RayTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_KeyCode = { "KeyCode", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRayKeyInput, KeyCode), nullptr, METADATA_PARAMS(Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_KeyCode_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_KeyCode_MetaData)) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_KeyCode = { "KeyCode", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRayKeyInput, KeyCode), nullptr, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_KeyCode_MetaData), Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_KeyCode_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_bKeyDown_MetaData[] = {
 		{ "Category", "Input" },
@@ -139,7 +139,7 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayKeyInput>()
 	{
 		((FRayKeyInput*)Obj)->bKeyDown = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_bKeyDown = { "bKeyDown", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FRayKeyInput), &Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_bKeyDown_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_bKeyDown_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_bKeyDown_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_bKeyDown = { "bKeyDown", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FRayKeyInput), &Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_bKeyDown_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_bKeyDown_MetaData), Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_bKeyDown_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_bRepeat_MetaData[] = {
 		{ "Category", "Input" },
@@ -150,7 +150,7 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayKeyInput>()
 	{
 		((FRayKeyInput*)Obj)->bRepeat = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_bRepeat = { "bRepeat", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FRayKeyInput), &Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_bRepeat_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_bRepeat_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_bRepeat_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_bRepeat = { "bRepeat", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FRayKeyInput), &Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_bRepeat_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_bRepeat_MetaData), Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_bRepeat_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FRayKeyInput_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_KeyCode,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewProp_bKeyDown,
@@ -161,14 +161,15 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayKeyInput>()
 		nullptr,
 		&NewStructOps,
 		"RayKeyInput",
-		sizeof(FRayKeyInput),
-		alignof(FRayKeyInput),
 		Z_Construct_UScriptStruct_FRayKeyInput_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayKeyInput_Statics::PropPointers),
+		sizeof(FRayKeyInput),
+		alignof(FRayKeyInput),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000001),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FRayKeyInput_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayKeyInput_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayKeyInput_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FRayKeyInput_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayKeyInput_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FRayKeyInput()
 	{
 		if (!Z_Registration_Info_UScriptStruct_RayKeyInput.InnerSingleton)
@@ -224,7 +225,7 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayCharInput>()
 		{ "ModuleRelativePath", "Public/RayTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FRayCharInput_Statics::NewProp_Char = { "Char", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRayCharInput, Char), METADATA_PARAMS(Z_Construct_UScriptStruct_FRayCharInput_Statics::NewProp_Char_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayCharInput_Statics::NewProp_Char_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FRayCharInput_Statics::NewProp_Char = { "Char", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRayCharInput, Char), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayCharInput_Statics::NewProp_Char_MetaData), Z_Construct_UScriptStruct_FRayCharInput_Statics::NewProp_Char_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRayCharInput_Statics::NewProp_bRepeat_MetaData[] = {
 		{ "Category", "Input" },
@@ -235,7 +236,7 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayCharInput>()
 	{
 		((FRayCharInput*)Obj)->bRepeat = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FRayCharInput_Statics::NewProp_bRepeat = { "bRepeat", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FRayCharInput), &Z_Construct_UScriptStruct_FRayCharInput_Statics::NewProp_bRepeat_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FRayCharInput_Statics::NewProp_bRepeat_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayCharInput_Statics::NewProp_bRepeat_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FRayCharInput_Statics::NewProp_bRepeat = { "bRepeat", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FRayCharInput), &Z_Construct_UScriptStruct_FRayCharInput_Statics::NewProp_bRepeat_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayCharInput_Statics::NewProp_bRepeat_MetaData), Z_Construct_UScriptStruct_FRayCharInput_Statics::NewProp_bRepeat_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FRayCharInput_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRayCharInput_Statics::NewProp_Char,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRayCharInput_Statics::NewProp_bRepeat,
@@ -245,14 +246,15 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayCharInput>()
 		nullptr,
 		&NewStructOps,
 		"RayCharInput",
-		sizeof(FRayCharInput),
-		alignof(FRayCharInput),
 		Z_Construct_UScriptStruct_FRayCharInput_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayCharInput_Statics::PropPointers),
+		sizeof(FRayCharInput),
+		alignof(FRayCharInput),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000001),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FRayCharInput_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayCharInput_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayCharInput_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FRayCharInput_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayCharInput_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FRayCharInput()
 	{
 		if (!Z_Registration_Info_UScriptStruct_RayCharInput.InnerSingleton)
@@ -315,28 +317,28 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayMouseMoveInput>
 		{ "ModuleRelativePath", "Public/RayTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_PositionX = { "PositionX", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRayMouseMoveInput, PositionX), METADATA_PARAMS(Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_PositionX_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_PositionX_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_PositionX = { "PositionX", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRayMouseMoveInput, PositionX), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_PositionX_MetaData), Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_PositionX_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_PositionY_MetaData[] = {
 		{ "Category", "Input" },
 		{ "ModuleRelativePath", "Public/RayTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_PositionY = { "PositionY", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRayMouseMoveInput, PositionY), METADATA_PARAMS(Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_PositionY_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_PositionY_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_PositionY = { "PositionY", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRayMouseMoveInput, PositionY), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_PositionY_MetaData), Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_PositionY_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_DeltaX_MetaData[] = {
 		{ "Category", "Input" },
 		{ "ModuleRelativePath", "Public/RayTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_DeltaX = { "DeltaX", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRayMouseMoveInput, DeltaX), METADATA_PARAMS(Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_DeltaX_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_DeltaX_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_DeltaX = { "DeltaX", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRayMouseMoveInput, DeltaX), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_DeltaX_MetaData), Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_DeltaX_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_DeltaY_MetaData[] = {
 		{ "Category", "Input" },
 		{ "ModuleRelativePath", "Public/RayTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_DeltaY = { "DeltaY", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRayMouseMoveInput, DeltaY), METADATA_PARAMS(Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_DeltaY_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_DeltaY_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_DeltaY = { "DeltaY", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRayMouseMoveInput, DeltaY), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_DeltaY_MetaData), Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_DeltaY_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_PositionX,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewProp_PositionY,
@@ -348,14 +350,15 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayMouseMoveInput>
 		nullptr,
 		&NewStructOps,
 		"RayMouseMoveInput",
-		sizeof(FRayMouseMoveInput),
-		alignof(FRayMouseMoveInput),
 		Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::PropPointers),
+		sizeof(FRayMouseMoveInput),
+		alignof(FRayMouseMoveInput),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000001),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FRayMouseMoveInput()
 	{
 		if (!Z_Registration_Info_UScriptStruct_RayMouseMoveInput.InnerSingleton)
@@ -419,21 +422,21 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayMouseKeyInput>(
 		{ "ModuleRelativePath", "Public/RayTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_KeyCode = { "KeyCode", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRayMouseKeyInput, KeyCode), nullptr, METADATA_PARAMS(Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_KeyCode_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_KeyCode_MetaData)) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_KeyCode = { "KeyCode", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRayMouseKeyInput, KeyCode), nullptr, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_KeyCode_MetaData), Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_KeyCode_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_PositionX_MetaData[] = {
 		{ "Category", "Input" },
 		{ "ModuleRelativePath", "Public/RayTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_PositionX = { "PositionX", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRayMouseKeyInput, PositionX), METADATA_PARAMS(Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_PositionX_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_PositionX_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_PositionX = { "PositionX", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRayMouseKeyInput, PositionX), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_PositionX_MetaData), Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_PositionX_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_PositionY_MetaData[] = {
 		{ "Category", "Input" },
 		{ "ModuleRelativePath", "Public/RayTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_PositionY = { "PositionY", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRayMouseKeyInput, PositionY), METADATA_PARAMS(Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_PositionY_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_PositionY_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_PositionY = { "PositionY", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRayMouseKeyInput, PositionY), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_PositionY_MetaData), Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_PositionY_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_bKeyDown_MetaData[] = {
 		{ "Category", "Input" },
@@ -444,7 +447,7 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayMouseKeyInput>(
 	{
 		((FRayMouseKeyInput*)Obj)->bKeyDown = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_bKeyDown = { "bKeyDown", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(FRayMouseKeyInput), &Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_bKeyDown_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_bKeyDown_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_bKeyDown_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_bKeyDown = { "bKeyDown", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FRayMouseKeyInput), &Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_bKeyDown_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_bKeyDown_MetaData), Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_bKeyDown_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_KeyCode,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewProp_PositionX,
@@ -456,14 +459,15 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayMouseKeyInput>(
 		nullptr,
 		&NewStructOps,
 		"RayMouseKeyInput",
-		sizeof(FRayMouseKeyInput),
-		alignof(FRayMouseKeyInput),
 		Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::PropPointers),
+		sizeof(FRayMouseKeyInput),
+		alignof(FRayMouseKeyInput),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000001),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FRayMouseKeyInput()
 	{
 		if (!Z_Registration_Info_UScriptStruct_RayMouseKeyInput.InnerSingleton)
@@ -522,21 +526,21 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayMouseWheelInput
 		{ "ModuleRelativePath", "Public/RayTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewProp_Delta = { "Delta", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRayMouseWheelInput, Delta), METADATA_PARAMS(Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewProp_Delta_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewProp_Delta_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewProp_Delta = { "Delta", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRayMouseWheelInput, Delta), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewProp_Delta_MetaData), Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewProp_Delta_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewProp_PosX_MetaData[] = {
 		{ "Category", "Input" },
 		{ "ModuleRelativePath", "Public/RayTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewProp_PosX = { "PosX", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRayMouseWheelInput, PosX), METADATA_PARAMS(Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewProp_PosX_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewProp_PosX_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewProp_PosX = { "PosX", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRayMouseWheelInput, PosX), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewProp_PosX_MetaData), Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewProp_PosX_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewProp_PosY_MetaData[] = {
 		{ "Category", "Input" },
 		{ "ModuleRelativePath", "Public/RayTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewProp_PosY = { "PosY", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRayMouseWheelInput, PosY), METADATA_PARAMS(Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewProp_PosY_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewProp_PosY_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewProp_PosY = { "PosY", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRayMouseWheelInput, PosY), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewProp_PosY_MetaData), Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewProp_PosY_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewProp_Delta,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewProp_PosX,
@@ -547,14 +551,15 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayMouseWheelInput
 		nullptr,
 		&NewStructOps,
 		"RayMouseWheelInput",
-		sizeof(FRayMouseWheelInput),
-		alignof(FRayMouseWheelInput),
 		Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::PropPointers),
+		sizeof(FRayMouseWheelInput),
+		alignof(FRayMouseWheelInput),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000001),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FRayMouseWheelInput()
 	{
 		if (!Z_Registration_Info_UScriptStruct_RayMouseWheelInput.InnerSingleton)
@@ -621,35 +626,35 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayTouchInput>()
 		{ "ModuleRelativePath", "Public/RayTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_TouchType = { "TouchType", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRayTouchInput, TouchType), nullptr, METADATA_PARAMS(Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_TouchType_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_TouchType_MetaData)) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_TouchType = { "TouchType", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRayTouchInput, TouchType), nullptr, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_TouchType_MetaData), Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_TouchType_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_TouchIndex_MetaData[] = {
 		{ "Category", "Input" },
 		{ "ModuleRelativePath", "Public/RayTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_TouchIndex = { "TouchIndex", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRayTouchInput, TouchIndex), nullptr, METADATA_PARAMS(Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_TouchIndex_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_TouchIndex_MetaData)) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_TouchIndex = { "TouchIndex", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRayTouchInput, TouchIndex), nullptr, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_TouchIndex_MetaData), Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_TouchIndex_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_PosX_MetaData[] = {
 		{ "Category", "Input" },
 		{ "ModuleRelativePath", "Public/RayTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_PosX = { "PosX", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRayTouchInput, PosX), METADATA_PARAMS(Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_PosX_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_PosX_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_PosX = { "PosX", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRayTouchInput, PosX), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_PosX_MetaData), Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_PosX_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_PosY_MetaData[] = {
 		{ "Category", "Input" },
 		{ "ModuleRelativePath", "Public/RayTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_PosY = { "PosY", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRayTouchInput, PosY), METADATA_PARAMS(Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_PosY_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_PosY_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_PosY = { "PosY", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRayTouchInput, PosY), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_PosY_MetaData), Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_PosY_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_Force_MetaData[] = {
 		{ "Category", "Input" },
 		{ "ModuleRelativePath", "Public/RayTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_Force = { "Force", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(FRayTouchInput, Force), nullptr, METADATA_PARAMS(Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_Force_MetaData, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_Force_MetaData)) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_Force = { "Force", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FRayTouchInput, Force), nullptr, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_Force_MetaData), Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_Force_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FRayTouchInput_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_TouchType,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewProp_TouchIndex,
@@ -662,14 +667,15 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayTouchInput>()
 		nullptr,
 		&NewStructOps,
 		"RayTouchInput",
-		sizeof(FRayTouchInput),
-		alignof(FRayTouchInput),
 		Z_Construct_UScriptStruct_FRayTouchInput_Statics::PropPointers,
 		UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayTouchInput_Statics::PropPointers),
+		sizeof(FRayTouchInput),
+		alignof(FRayTouchInput),
 		RF_Public|RF_Transient|RF_MarkAsNative,
 		EStructFlags(0x00000001),
-		METADATA_PARAMS(Z_Construct_UScriptStruct_FRayTouchInput_Statics::Struct_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayTouchInput_Statics::Struct_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayTouchInput_Statics::Struct_MetaDataParams), Z_Construct_UScriptStruct_FRayTouchInput_Statics::Struct_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UScriptStruct_FRayTouchInput_Statics::PropPointers) < 2048);
 	UScriptStruct* Z_Construct_UScriptStruct_FRayTouchInput()
 	{
 		if (!Z_Registration_Info_UScriptStruct_RayTouchInput.InnerSingleton)
@@ -719,9 +725,9 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayTouchInput>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_URayTypes_TouchCodeToType_Statics::NewProp_TouchCode = { "TouchCode", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(RayTypes_eventTouchCodeToType_Parms, TouchCode), nullptr, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_URayTypes_TouchCodeToType_Statics::NewProp_ReturnValue_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_URayTypes_TouchCodeToType_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(RayTypes_eventTouchCodeToType_Parms, ReturnValue), Z_Construct_UEnum_RayStreamingForUE_ERayTouchType, METADATA_PARAMS(nullptr, 0) }; // 2827600021
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_URayTypes_TouchCodeToType_Statics::NewProp_TouchCode = { "TouchCode", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(RayTypes_eventTouchCodeToType_Parms, TouchCode), nullptr, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_URayTypes_TouchCodeToType_Statics::NewProp_ReturnValue_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_URayTypes_TouchCodeToType_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(RayTypes_eventTouchCodeToType_Parms, ReturnValue), Z_Construct_UEnum_RayStreamingForUE_ERayTouchType, METADATA_PARAMS(0, nullptr) }; // 3383221369
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_URayTypes_TouchCodeToType_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_URayTypes_TouchCodeToType_Statics::NewProp_TouchCode,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_URayTypes_TouchCodeToType_Statics::NewProp_ReturnValue_Underlying,
@@ -733,7 +739,9 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayTouchInput>()
 		{ "ModuleRelativePath", "Public/RayTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayTypes_TouchCodeToType_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayTypes, nullptr, "TouchCodeToType", nullptr, nullptr, sizeof(Z_Construct_UFunction_URayTypes_TouchCodeToType_Statics::RayTypes_eventTouchCodeToType_Parms), Z_Construct_UFunction_URayTypes_TouchCodeToType_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayTypes_TouchCodeToType_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14042401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_URayTypes_TouchCodeToType_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_URayTypes_TouchCodeToType_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayTypes_TouchCodeToType_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayTypes, nullptr, "TouchCodeToType", nullptr, nullptr, Z_Construct_UFunction_URayTypes_TouchCodeToType_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayTypes_TouchCodeToType_Statics::PropPointers), sizeof(Z_Construct_UFunction_URayTypes_TouchCodeToType_Statics::RayTypes_eventTouchCodeToType_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14042401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URayTypes_TouchCodeToType_Statics::Function_MetaDataParams), Z_Construct_UFunction_URayTypes_TouchCodeToType_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_URayTypes_TouchCodeToType_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_URayTypes_TouchCodeToType_Statics::RayTypes_eventTouchCodeToType_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_URayTypes_TouchCodeToType()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -759,9 +767,9 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayTouchInput>()
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_URayTypes_TouchTypeToCode_Statics::NewProp_Type_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_URayTypes_TouchTypeToCode_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(RayTypes_eventTouchTypeToCode_Parms, Type), Z_Construct_UEnum_RayStreamingForUE_ERayTouchType, METADATA_PARAMS(nullptr, 0) }; // 2827600021
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_URayTypes_TouchTypeToCode_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(RayTypes_eventTouchTypeToCode_Parms, ReturnValue), nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_URayTypes_TouchTypeToCode_Statics::NewProp_Type_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_URayTypes_TouchTypeToCode_Statics::NewProp_Type = { "Type", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(RayTypes_eventTouchTypeToCode_Parms, Type), Z_Construct_UEnum_RayStreamingForUE_ERayTouchType, METADATA_PARAMS(0, nullptr) }; // 3383221369
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_URayTypes_TouchTypeToCode_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(RayTypes_eventTouchTypeToCode_Parms, ReturnValue), nullptr, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_URayTypes_TouchTypeToCode_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_URayTypes_TouchTypeToCode_Statics::NewProp_Type_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_URayTypes_TouchTypeToCode_Statics::NewProp_Type,
@@ -773,7 +781,9 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayTouchInput>()
 		{ "ModuleRelativePath", "Public/RayTypes.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayTypes_TouchTypeToCode_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayTypes, nullptr, "TouchTypeToCode", nullptr, nullptr, sizeof(Z_Construct_UFunction_URayTypes_TouchTypeToCode_Statics::RayTypes_eventTouchTypeToCode_Parms), Z_Construct_UFunction_URayTypes_TouchTypeToCode_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayTypes_TouchTypeToCode_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14042401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_URayTypes_TouchTypeToCode_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_URayTypes_TouchTypeToCode_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayTypes_TouchTypeToCode_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayTypes, nullptr, "TouchTypeToCode", nullptr, nullptr, Z_Construct_UFunction_URayTypes_TouchTypeToCode_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayTypes_TouchTypeToCode_Statics::PropPointers), sizeof(Z_Construct_UFunction_URayTypes_TouchTypeToCode_Statics::RayTypes_eventTouchTypeToCode_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14042401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URayTypes_TouchTypeToCode_Statics::Function_MetaDataParams), Z_Construct_UFunction_URayTypes_TouchTypeToCode_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_URayTypes_TouchTypeToCode_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_URayTypes_TouchTypeToCode_Statics::RayTypes_eventTouchTypeToCode_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_URayTypes_TouchTypeToCode()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -802,10 +812,12 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayTouchInput>()
 		(UObject* (*)())Z_Construct_UClass_UObject,
 		(UObject* (*)())Z_Construct_UPackage__Script_RayStreamingForUE,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_URayTypes_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_URayTypes_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_URayTypes_TouchCodeToType, "TouchCodeToType" }, // 3132919696
-		{ &Z_Construct_UFunction_URayTypes_TouchTypeToCode, "TouchTypeToCode" }, // 933340088
+		{ &Z_Construct_UFunction_URayTypes_TouchCodeToType, "TouchCodeToType" }, // 270514788
+		{ &Z_Construct_UFunction_URayTypes_TouchTypeToCode, "TouchTypeToCode" }, // 3235017892
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_URayTypes_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_URayTypes_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "RayTypes.h" },
@@ -828,7 +840,7 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayTouchInput>()
 		0,
 		0,
 		0x001000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_URayTypes_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_URayTypes_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_URayTypes_Statics::Class_MetaDataParams), Z_Construct_UClass_URayTypes_Statics::Class_MetaDataParams)
 	};
 	UClass* Z_Construct_UClass_URayTypes()
 	{
@@ -845,28 +857,28 @@ template<> RAYSTREAMINGFORUE_API UScriptStruct* StaticStruct<FRayTouchInput>()
 	URayTypes::URayTypes(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(URayTypes);
 	URayTypes::~URayTypes() {}
-	struct Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics
+	struct Z_CompiledInDeferFile_FID_RayvisionWebsocket_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::EnumInfo[] = {
-		{ ERayTouchType_StaticEnum, TEXT("ERayTouchType"), &Z_Registration_Info_UEnum_ERayTouchType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2827600021U) },
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_RayvisionWebsocket_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::EnumInfo[] = {
+		{ ERayTouchType_StaticEnum, TEXT("ERayTouchType"), &Z_Registration_Info_UEnum_ERayTouchType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3383221369U) },
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ScriptStructInfo[] = {
-		{ FRayKeyInput::StaticStruct, Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewStructOps, TEXT("RayKeyInput"), &Z_Registration_Info_UScriptStruct_RayKeyInput, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FRayKeyInput), 1940993044U) },
-		{ FRayCharInput::StaticStruct, Z_Construct_UScriptStruct_FRayCharInput_Statics::NewStructOps, TEXT("RayCharInput"), &Z_Registration_Info_UScriptStruct_RayCharInput, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FRayCharInput), 3187242831U) },
-		{ FRayMouseMoveInput::StaticStruct, Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewStructOps, TEXT("RayMouseMoveInput"), &Z_Registration_Info_UScriptStruct_RayMouseMoveInput, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FRayMouseMoveInput), 1631152826U) },
-		{ FRayMouseKeyInput::StaticStruct, Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewStructOps, TEXT("RayMouseKeyInput"), &Z_Registration_Info_UScriptStruct_RayMouseKeyInput, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FRayMouseKeyInput), 2473569690U) },
-		{ FRayMouseWheelInput::StaticStruct, Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewStructOps, TEXT("RayMouseWheelInput"), &Z_Registration_Info_UScriptStruct_RayMouseWheelInput, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FRayMouseWheelInput), 973774833U) },
-		{ FRayTouchInput::StaticStruct, Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewStructOps, TEXT("RayTouchInput"), &Z_Registration_Info_UScriptStruct_RayTouchInput, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FRayTouchInput), 1130902675U) },
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_RayvisionWebsocket_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ScriptStructInfo[] = {
+		{ FRayKeyInput::StaticStruct, Z_Construct_UScriptStruct_FRayKeyInput_Statics::NewStructOps, TEXT("RayKeyInput"), &Z_Registration_Info_UScriptStruct_RayKeyInput, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FRayKeyInput), 4067477464U) },
+		{ FRayCharInput::StaticStruct, Z_Construct_UScriptStruct_FRayCharInput_Statics::NewStructOps, TEXT("RayCharInput"), &Z_Registration_Info_UScriptStruct_RayCharInput, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FRayCharInput), 3008549104U) },
+		{ FRayMouseMoveInput::StaticStruct, Z_Construct_UScriptStruct_FRayMouseMoveInput_Statics::NewStructOps, TEXT("RayMouseMoveInput"), &Z_Registration_Info_UScriptStruct_RayMouseMoveInput, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FRayMouseMoveInput), 395795780U) },
+		{ FRayMouseKeyInput::StaticStruct, Z_Construct_UScriptStruct_FRayMouseKeyInput_Statics::NewStructOps, TEXT("RayMouseKeyInput"), &Z_Registration_Info_UScriptStruct_RayMouseKeyInput, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FRayMouseKeyInput), 66264104U) },
+		{ FRayMouseWheelInput::StaticStruct, Z_Construct_UScriptStruct_FRayMouseWheelInput_Statics::NewStructOps, TEXT("RayMouseWheelInput"), &Z_Registration_Info_UScriptStruct_RayMouseWheelInput, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FRayMouseWheelInput), 140718024U) },
+		{ FRayTouchInput::StaticStruct, Z_Construct_UScriptStruct_FRayTouchInput_Statics::NewStructOps, TEXT("RayTouchInput"), &Z_Registration_Info_UScriptStruct_RayTouchInput, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FRayTouchInput), 1504740252U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_URayTypes, URayTypes::StaticClass, TEXT("URayTypes"), &Z_Registration_Info_UClass_URayTypes, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(URayTypes), 3401182851U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_RayvisionWebsocket_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_URayTypes, URayTypes::StaticClass, TEXT("URayTypes"), &Z_Registration_Info_UClass_URayTypes, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(URayTypes), 2156926267U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_3832792062(TEXT("/Script/RayStreamingForUE"),
-		Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ScriptStructInfo),
-		Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::EnumInfo));
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_RayvisionWebsocket_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_1059255609(TEXT("/Script/RayStreamingForUE"),
+		Z_CompiledInDeferFile_FID_RayvisionWebsocket_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_RayvisionWebsocket_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID_RayvisionWebsocket_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_RayvisionWebsocket_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID_RayvisionWebsocket_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_RayvisionWebsocket_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayTypes_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

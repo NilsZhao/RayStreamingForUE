@@ -32,7 +32,7 @@ void EmptyLinkFunctionForGeneratedCodeRayStreamingComponent() {}
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectedSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_RayStreamingForUE, nullptr, "OnConnectedSignature__DelegateSignature", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectedSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectedSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectedSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_RayStreamingForUE, nullptr, "OnConnectedSignature__DelegateSignature", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectedSignature__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectedSignature__DelegateSignature_Statics::Function_MetaDataParams) };
 	UFunction* Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectedSignature__DelegateSignature()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -67,7 +67,7 @@ void FOnConnectedSignature_DelegateWrapper(const FMulticastScriptDelegate& OnCon
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature_Statics::NewProp_Error = { "Error", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_RayStreamingForUE_eventOnConnectionErrorSignature_Parms, Error), METADATA_PARAMS(Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature_Statics::NewProp_Error_MetaData, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature_Statics::NewProp_Error_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature_Statics::NewProp_Error = { "Error", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_RayStreamingForUE_eventOnConnectionErrorSignature_Parms, Error), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature_Statics::NewProp_Error_MetaData), Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature_Statics::NewProp_Error_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature_Statics::NewProp_Error,
 	};
@@ -76,7 +76,9 @@ void FOnConnectedSignature_DelegateWrapper(const FMulticastScriptDelegate& OnCon
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_RayStreamingForUE, nullptr, "OnConnectionErrorSignature__DelegateSignature", nullptr, nullptr, sizeof(Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature_Statics::_Script_RayStreamingForUE_eventOnConnectionErrorSignature_Parms), Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_RayStreamingForUE, nullptr, "OnConnectionErrorSignature__DelegateSignature", nullptr, nullptr, Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature_Statics::PropPointers), sizeof(Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature_Statics::_Script_RayStreamingForUE_eventOnConnectionErrorSignature_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature_Statics::_Script_RayStreamingForUE_eventOnConnectionErrorSignature_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -117,18 +119,18 @@ void FOnConnectionErrorSignature_DelegateWrapper(const FMulticastScriptDelegate&
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FIntPropertyParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::NewProp_StatusCode = { "StatusCode", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_RayStreamingForUE_eventOnClosedSignature_Parms, StatusCode), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::NewProp_StatusCode = { "StatusCode", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_RayStreamingForUE_eventOnClosedSignature_Parms, StatusCode), METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::NewProp_Reason_MetaData[] = {
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::NewProp_Reason = { "Reason", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_RayStreamingForUE_eventOnClosedSignature_Parms, Reason), METADATA_PARAMS(Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::NewProp_Reason_MetaData, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::NewProp_Reason_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::NewProp_Reason = { "Reason", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_RayStreamingForUE_eventOnClosedSignature_Parms, Reason), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::NewProp_Reason_MetaData), Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::NewProp_Reason_MetaData) };
 	void Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::NewProp_bWasClean_SetBit(void* Obj)
 	{
 		((_Script_RayStreamingForUE_eventOnClosedSignature_Parms*)Obj)->bWasClean = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::NewProp_bWasClean = { "bWasClean", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(_Script_RayStreamingForUE_eventOnClosedSignature_Parms), &Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::NewProp_bWasClean_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::NewProp_bWasClean = { "bWasClean", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(_Script_RayStreamingForUE_eventOnClosedSignature_Parms), &Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::NewProp_bWasClean_SetBit, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::NewProp_StatusCode,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::NewProp_Reason,
@@ -139,7 +141,9 @@ void FOnConnectionErrorSignature_DelegateWrapper(const FMulticastScriptDelegate&
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_RayStreamingForUE, nullptr, "OnClosedSignature__DelegateSignature", nullptr, nullptr, sizeof(Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::_Script_RayStreamingForUE_eventOnClosedSignature_Parms), Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_RayStreamingForUE, nullptr, "OnClosedSignature__DelegateSignature", nullptr, nullptr, Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::PropPointers), sizeof(Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::_Script_RayStreamingForUE_eventOnClosedSignature_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature_Statics::_Script_RayStreamingForUE_eventOnClosedSignature_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -184,7 +188,7 @@ void FOnClosedSignature_DelegateWrapper(const FMulticastScriptDelegate& OnClosed
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature_Statics::NewProp_Message = { "Message", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_RayStreamingForUE_eventOnMessageSignature_Parms, Message), METADATA_PARAMS(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature_Statics::NewProp_Message_MetaData, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature_Statics::NewProp_Message_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature_Statics::NewProp_Message = { "Message", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_RayStreamingForUE_eventOnMessageSignature_Parms, Message), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature_Statics::NewProp_Message_MetaData), Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature_Statics::NewProp_Message_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature_Statics::NewProp_Message,
 	};
@@ -193,7 +197,9 @@ void FOnClosedSignature_DelegateWrapper(const FMulticastScriptDelegate& OnClosed
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_RayStreamingForUE, nullptr, "OnMessageSignature__DelegateSignature", nullptr, nullptr, sizeof(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature_Statics::_Script_RayStreamingForUE_eventOnMessageSignature_Parms), Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_RayStreamingForUE, nullptr, "OnMessageSignature__DelegateSignature", nullptr, nullptr, Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature_Statics::PropPointers), sizeof(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature_Statics::_Script_RayStreamingForUE_eventOnMessageSignature_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature_Statics::_Script_RayStreamingForUE_eventOnMessageSignature_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -227,8 +233,8 @@ void FOnMessageSignature_DelegateWrapper(const FMulticastScriptDelegate& OnMessa
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature_Statics::NewProp_Data_Inner = { "Data", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature_Statics::NewProp_Data = { "Data", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_RayStreamingForUE_eventOnRawMessageSignature_Parms, Data), EArrayPropertyFlags::None, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature_Statics::NewProp_Data_Inner = { "Data", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature_Statics::NewProp_Data = { "Data", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_RayStreamingForUE_eventOnRawMessageSignature_Parms, Data), EArrayPropertyFlags::None, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature_Statics::NewProp_Data_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature_Statics::NewProp_Data,
@@ -238,7 +244,9 @@ void FOnMessageSignature_DelegateWrapper(const FMulticastScriptDelegate& OnMessa
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_RayStreamingForUE, nullptr, "OnRawMessageSignature__DelegateSignature", nullptr, nullptr, sizeof(Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature_Statics::_Script_RayStreamingForUE_eventOnRawMessageSignature_Parms), Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_RayStreamingForUE, nullptr, "OnRawMessageSignature__DelegateSignature", nullptr, nullptr, Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature_Statics::PropPointers), sizeof(Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature_Statics::_Script_RayStreamingForUE_eventOnRawMessageSignature_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature_Statics::_Script_RayStreamingForUE_eventOnRawMessageSignature_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -279,7 +287,7 @@ void FOnRawMessageSignature_DelegateWrapper(const FMulticastScriptDelegate& OnRa
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature_Statics::NewProp_MessageString = { "MessageString", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(_Script_RayStreamingForUE_eventOnMessageSentSignature_Parms, MessageString), METADATA_PARAMS(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature_Statics::NewProp_MessageString_MetaData, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature_Statics::NewProp_MessageString_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature_Statics::NewProp_MessageString = { "MessageString", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_RayStreamingForUE_eventOnMessageSentSignature_Parms, MessageString), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature_Statics::NewProp_MessageString_MetaData), Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature_Statics::NewProp_MessageString_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature_Statics::NewProp_MessageString,
 	};
@@ -288,7 +296,9 @@ void FOnRawMessageSignature_DelegateWrapper(const FMulticastScriptDelegate& OnRa
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_RayStreamingForUE, nullptr, "OnMessageSentSignature__DelegateSignature", nullptr, nullptr, sizeof(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature_Statics::_Script_RayStreamingForUE_eventOnMessageSentSignature_Parms), Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_RayStreamingForUE, nullptr, "OnMessageSentSignature__DelegateSignature", nullptr, nullptr, Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature_Statics::PropPointers), sizeof(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature_Statics::_Script_RayStreamingForUE_eventOnMessageSentSignature_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature_Statics::_Script_RayStreamingForUE_eventOnMessageSentSignature_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -434,7 +444,7 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_ConnectTo3dcat_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "ConnectTo3dcat", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_URayStreamingComponent_ConnectTo3dcat_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_ConnectTo3dcat_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_ConnectTo3dcat_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "ConnectTo3dcat", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_ConnectTo3dcat_Statics::Function_MetaDataParams), Z_Construct_UFunction_URayStreamingComponent_ConnectTo3dcat_Statics::Function_MetaDataParams) };
 	UFunction* Z_Construct_UFunction_URayStreamingComponent_ConnectTo3dcat()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -457,7 +467,7 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_URayStreamingComponent_ConnectToUrl_Statics::NewProp_NewUrl = { "NewUrl", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(RayStreamingComponent_eventConnectToUrl_Parms, NewUrl), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_URayStreamingComponent_ConnectToUrl_Statics::NewProp_NewUrl = { "NewUrl", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(RayStreamingComponent_eventConnectToUrl_Parms, NewUrl), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_URayStreamingComponent_ConnectToUrl_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_URayStreamingComponent_ConnectToUrl_Statics::NewProp_NewUrl,
 	};
@@ -467,7 +477,9 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_ConnectToUrl_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "ConnectToUrl", nullptr, nullptr, sizeof(Z_Construct_UFunction_URayStreamingComponent_ConnectToUrl_Statics::RayStreamingComponent_eventConnectToUrl_Parms), Z_Construct_UFunction_URayStreamingComponent_ConnectToUrl_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_ConnectToUrl_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_URayStreamingComponent_ConnectToUrl_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_ConnectToUrl_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_ConnectToUrl_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "ConnectToUrl", nullptr, nullptr, Z_Construct_UFunction_URayStreamingComponent_ConnectToUrl_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_ConnectToUrl_Statics::PropPointers), sizeof(Z_Construct_UFunction_URayStreamingComponent_ConnectToUrl_Statics::RayStreamingComponent_eventConnectToUrl_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_ConnectToUrl_Statics::Function_MetaDataParams), Z_Construct_UFunction_URayStreamingComponent_ConnectToUrl_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_ConnectToUrl_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_URayStreamingComponent_ConnectToUrl_Statics::RayStreamingComponent_eventConnectToUrl_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_URayStreamingComponent_ConnectToUrl()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -490,7 +502,7 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_Disconnect_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "Disconnect", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_URayStreamingComponent_Disconnect_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_Disconnect_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_Disconnect_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "Disconnect", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_Disconnect_Statics::Function_MetaDataParams), Z_Construct_UFunction_URayStreamingComponent_Disconnect_Statics::Function_MetaDataParams) };
 	UFunction* Z_Construct_UFunction_URayStreamingComponent_Disconnect()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -517,13 +529,13 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000080008, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, Z_Construct_UClass_URayStreamingComponent_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000080008, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UClass_URayStreamingComponent_NoRegister, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::NewProp_ReturnValue_MetaData[] = {
 		{ "EditInline", "true" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010008000000588, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(RayStreamingComponent_eventGetRegisteredStreamingComponent_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::NewProp_ReturnValue_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::NewProp_ReturnValue_MetaData)) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010008000000588, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(RayStreamingComponent_eventGetRegisteredStreamingComponent_Parms, ReturnValue), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::NewProp_ReturnValue_MetaData), Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::NewProp_ReturnValue_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::NewProp_ReturnValue_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::NewProp_ReturnValue,
@@ -534,7 +546,9 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "GetRegisteredStreamingComponent", nullptr, nullptr, sizeof(Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::RayStreamingComponent_eventGetRegisteredStreamingComponent_Parms), Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "GetRegisteredStreamingComponent", nullptr, nullptr, Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::PropPointers), sizeof(Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::RayStreamingComponent_eventGetRegisteredStreamingComponent_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::Function_MetaDataParams), Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent_Statics::RayStreamingComponent_eventGetRegisteredStreamingComponent_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -568,12 +582,12 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 		{ "EditInline", "true" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::NewProp_RayComp = { "RayComp", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(RayStreamingComponent_eventIsRayStreamingComponentRegistered_Parms, RayComp), Z_Construct_UClass_URayStreamingComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::NewProp_RayComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::NewProp_RayComp_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::NewProp_RayComp = { "RayComp", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(RayStreamingComponent_eventIsRayStreamingComponentRegistered_Parms, RayComp), Z_Construct_UClass_URayStreamingComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::NewProp_RayComp_MetaData), Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::NewProp_RayComp_MetaData) };
 	void Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::NewProp_ReturnValue_SetBit(void* Obj)
 	{
 		((RayStreamingComponent_eventIsRayStreamingComponentRegistered_Parms*)Obj)->ReturnValue = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(RayStreamingComponent_eventIsRayStreamingComponentRegistered_Parms), &Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(RayStreamingComponent_eventIsRayStreamingComponentRegistered_Parms), &Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::NewProp_RayComp,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::NewProp_ReturnValue,
@@ -584,7 +598,9 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "IsRayStreamingComponentRegistered", nullptr, nullptr, sizeof(Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::RayStreamingComponent_eventIsRayStreamingComponentRegistered_Parms), Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "IsRayStreamingComponentRegistered", nullptr, nullptr, Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::PropPointers), sizeof(Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::RayStreamingComponent_eventIsRayStreamingComponentRegistered_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::Function_MetaDataParams), Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered_Statics::RayStreamingComponent_eventIsRayStreamingComponentRegistered_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -615,7 +631,7 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand_Statics::NewProp_CommandName = { "CommandName", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(RayStreamingComponent_eventRegisterConsoleCommand_Parms, CommandName), METADATA_PARAMS(Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand_Statics::NewProp_CommandName_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand_Statics::NewProp_CommandName_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand_Statics::NewProp_CommandName = { "CommandName", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(RayStreamingComponent_eventRegisterConsoleCommand_Parms, CommandName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand_Statics::NewProp_CommandName_MetaData), Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand_Statics::NewProp_CommandName_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand_Statics::NewProp_CommandName,
 	};
@@ -625,7 +641,9 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "RegisterConsoleCommand", nullptr, nullptr, sizeof(Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand_Statics::RayStreamingComponent_eventRegisterConsoleCommand_Parms), Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "RegisterConsoleCommand", nullptr, nullptr, Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand_Statics::PropPointers), sizeof(Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand_Statics::RayStreamingComponent_eventRegisterConsoleCommand_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand_Statics::Function_MetaDataParams), Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand_Statics::RayStreamingComponent_eventRegisterConsoleCommand_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -656,7 +674,7 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 		{ "EditInline", "true" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent_Statics::NewProp_RayComp = { "RayComp", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(RayStreamingComponent_eventRegisterRayStreamingComponent_Parms, RayComp), Z_Construct_UClass_URayStreamingComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent_Statics::NewProp_RayComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent_Statics::NewProp_RayComp_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent_Statics::NewProp_RayComp = { "RayComp", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(RayStreamingComponent_eventRegisterRayStreamingComponent_Parms, RayComp), Z_Construct_UClass_URayStreamingComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent_Statics::NewProp_RayComp_MetaData), Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent_Statics::NewProp_RayComp_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent_Statics::NewProp_RayComp,
 	};
@@ -666,7 +684,9 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "RegisterRayStreamingComponent", nullptr, nullptr, sizeof(Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent_Statics::RayStreamingComponent_eventRegisterRayStreamingComponent_Parms), Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "RegisterRayStreamingComponent", nullptr, nullptr, Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent_Statics::PropPointers), sizeof(Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent_Statics::RayStreamingComponent_eventRegisterRayStreamingComponent_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent_Statics::Function_MetaDataParams), Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent_Statics::RayStreamingComponent_eventRegisterRayStreamingComponent_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -699,23 +719,23 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::NewProp_Data_Inner = { "Data", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::NewProp_Data_Inner = { "Data", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::NewProp_Data_MetaData[] = {
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::NewProp_Data = { "Data", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(RayStreamingComponent_eventSendData_Parms, Data), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::NewProp_Data_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::NewProp_Data_MetaData)) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::NewProp_Data = { "Data", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(RayStreamingComponent_eventSendData_Parms, Data), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::NewProp_Data_MetaData), Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::NewProp_Data_MetaData) };
 	void Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::NewProp_bIsBinary_SetBit(void* Obj)
 	{
 		((RayStreamingComponent_eventSendData_Parms*)Obj)->bIsBinary = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::NewProp_bIsBinary = { "bIsBinary", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(RayStreamingComponent_eventSendData_Parms), &Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::NewProp_bIsBinary_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::NewProp_bIsBinary = { "bIsBinary", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(RayStreamingComponent_eventSendData_Parms), &Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::NewProp_bIsBinary_SetBit, METADATA_PARAMS(0, nullptr) };
 	void Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::NewProp_ReturnValue_SetBit(void* Obj)
 	{
 		((RayStreamingComponent_eventSendData_Parms*)Obj)->ReturnValue = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(RayStreamingComponent_eventSendData_Parms), &Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(RayStreamingComponent_eventSendData_Parms), &Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::NewProp_Data_Inner,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::NewProp_Data,
@@ -729,7 +749,9 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "SendData", nullptr, nullptr, sizeof(Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::RayStreamingComponent_eventSendData_Parms), Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "SendData", nullptr, nullptr, Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::PropPointers), sizeof(Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::RayStreamingComponent_eventSendData_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::Function_MetaDataParams), Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_URayStreamingComponent_SendData_Statics::RayStreamingComponent_eventSendData_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_URayStreamingComponent_SendData()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -763,12 +785,12 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::NewProp_Message = { "Message", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(RayStreamingComponent_eventSendMessage_Parms, Message), METADATA_PARAMS(Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::NewProp_Message_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::NewProp_Message_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::NewProp_Message = { "Message", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(RayStreamingComponent_eventSendMessage_Parms, Message), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::NewProp_Message_MetaData), Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::NewProp_Message_MetaData) };
 	void Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::NewProp_ReturnValue_SetBit(void* Obj)
 	{
 		((RayStreamingComponent_eventSendMessage_Parms*)Obj)->ReturnValue = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(RayStreamingComponent_eventSendMessage_Parms), &Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(RayStreamingComponent_eventSendMessage_Parms), &Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::NewProp_Message,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::NewProp_ReturnValue,
@@ -779,7 +801,9 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "SendMessage", nullptr, nullptr, sizeof(Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::RayStreamingComponent_eventSendMessage_Parms), Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "SendMessage", nullptr, nullptr, Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::PropPointers), sizeof(Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::RayStreamingComponent_eventSendMessage_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::Function_MetaDataParams), Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_URayStreamingComponent_SendMessage_Statics::RayStreamingComponent_eventSendMessage_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_URayStreamingComponent_SendMessage()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -810,7 +834,7 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage_Statics::NewProp_Message = { "Message", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(RayStreamingComponent_eventSimulateInputMessage_Parms, Message), METADATA_PARAMS(Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage_Statics::NewProp_Message_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage_Statics::NewProp_Message_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage_Statics::NewProp_Message = { "Message", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(RayStreamingComponent_eventSimulateInputMessage_Parms, Message), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage_Statics::NewProp_Message_MetaData), Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage_Statics::NewProp_Message_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage_Statics::NewProp_Message,
 	};
@@ -820,7 +844,9 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "SimulateInputMessage", nullptr, nullptr, sizeof(Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage_Statics::RayStreamingComponent_eventSimulateInputMessage_Parms), Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "SimulateInputMessage", nullptr, nullptr, Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage_Statics::PropPointers), sizeof(Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage_Statics::RayStreamingComponent_eventSimulateInputMessage_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage_Statics::Function_MetaDataParams), Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage_Statics::RayStreamingComponent_eventSimulateInputMessage_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -851,7 +877,7 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 		{ "NativeConst", "" },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand_Statics::NewProp_CommandName = { "CommandName", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(RayStreamingComponent_eventUnregisterConsoleCommand_Parms, CommandName), METADATA_PARAMS(Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand_Statics::NewProp_CommandName_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand_Statics::NewProp_CommandName_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand_Statics::NewProp_CommandName = { "CommandName", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(RayStreamingComponent_eventUnregisterConsoleCommand_Parms, CommandName), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand_Statics::NewProp_CommandName_MetaData), Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand_Statics::NewProp_CommandName_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand_Statics::NewProp_CommandName,
 	};
@@ -861,7 +887,9 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "UnregisterConsoleCommand", nullptr, nullptr, sizeof(Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand_Statics::RayStreamingComponent_eventUnregisterConsoleCommand_Parms), Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "UnregisterConsoleCommand", nullptr, nullptr, Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand_Statics::PropPointers), sizeof(Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand_Statics::RayStreamingComponent_eventUnregisterConsoleCommand_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand_Statics::Function_MetaDataParams), Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand_Statics::RayStreamingComponent_eventUnregisterConsoleCommand_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -892,7 +920,7 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 		{ "EditInline", "true" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent_Statics::NewProp_RayComp = { "RayComp", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(RayStreamingComponent_eventUnregisterRayStreamingComponent_Parms, RayComp), Z_Construct_UClass_URayStreamingComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent_Statics::NewProp_RayComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent_Statics::NewProp_RayComp_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent_Statics::NewProp_RayComp = { "RayComp", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(RayStreamingComponent_eventUnregisterRayStreamingComponent_Parms, RayComp), Z_Construct_UClass_URayStreamingComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent_Statics::NewProp_RayComp_MetaData), Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent_Statics::NewProp_RayComp_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent_Statics::NewProp_RayComp,
 	};
@@ -902,7 +930,9 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "UnregisterRayStreamingComponent", nullptr, nullptr, sizeof(Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent_Statics::RayStreamingComponent_eventUnregisterRayStreamingComponent_Parms), Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_URayStreamingComponent, nullptr, "UnregisterRayStreamingComponent", nullptr, nullptr, Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent_Statics::PropPointers), sizeof(Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent_Statics::RayStreamingComponent_eventUnregisterRayStreamingComponent_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent_Statics::Function_MetaDataParams), Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent_Statics::RayStreamingComponent_eventUnregisterRayStreamingComponent_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -956,20 +986,22 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 		(UObject* (*)())Z_Construct_UClass_UActorComponent,
 		(UObject* (*)())Z_Construct_UPackage__Script_RayStreamingForUE,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingComponent_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_URayStreamingComponent_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_URayStreamingComponent_ConnectTo3dcat, "ConnectTo3dcat" }, // 960910509
-		{ &Z_Construct_UFunction_URayStreamingComponent_ConnectToUrl, "ConnectToUrl" }, // 3396444637
-		{ &Z_Construct_UFunction_URayStreamingComponent_Disconnect, "Disconnect" }, // 4018706981
-		{ &Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent, "GetRegisteredStreamingComponent" }, // 1929404507
-		{ &Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered, "IsRayStreamingComponentRegistered" }, // 2577315602
-		{ &Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand, "RegisterConsoleCommand" }, // 59486603
-		{ &Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent, "RegisterRayStreamingComponent" }, // 631032676
-		{ &Z_Construct_UFunction_URayStreamingComponent_SendData, "SendData" }, // 308052615
-		{ &Z_Construct_UFunction_URayStreamingComponent_SendMessage, "SendMessage" }, // 4236347780
-		{ &Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage, "SimulateInputMessage" }, // 1973072542
-		{ &Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand, "UnregisterConsoleCommand" }, // 499689921
-		{ &Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent, "UnregisterRayStreamingComponent" }, // 2116087049
+		{ &Z_Construct_UFunction_URayStreamingComponent_ConnectTo3dcat, "ConnectTo3dcat" }, // 318121531
+		{ &Z_Construct_UFunction_URayStreamingComponent_ConnectToUrl, "ConnectToUrl" }, // 1447964365
+		{ &Z_Construct_UFunction_URayStreamingComponent_Disconnect, "Disconnect" }, // 2120139079
+		{ &Z_Construct_UFunction_URayStreamingComponent_GetRegisteredStreamingComponent, "GetRegisteredStreamingComponent" }, // 980511226
+		{ &Z_Construct_UFunction_URayStreamingComponent_IsRayStreamingComponentRegistered, "IsRayStreamingComponentRegistered" }, // 2692671045
+		{ &Z_Construct_UFunction_URayStreamingComponent_RegisterConsoleCommand, "RegisterConsoleCommand" }, // 202516213
+		{ &Z_Construct_UFunction_URayStreamingComponent_RegisterRayStreamingComponent, "RegisterRayStreamingComponent" }, // 3186277667
+		{ &Z_Construct_UFunction_URayStreamingComponent_SendData, "SendData" }, // 3837386086
+		{ &Z_Construct_UFunction_URayStreamingComponent_SendMessage, "SendMessage" }, // 1402647487
+		{ &Z_Construct_UFunction_URayStreamingComponent_SimulateInputMessage, "SimulateInputMessage" }, // 161957649
+		{ &Z_Construct_UFunction_URayStreamingComponent_UnregisterConsoleCommand, "UnregisterConsoleCommand" }, // 2600182354
+		{ &Z_Construct_UFunction_URayStreamingComponent_UnregisterRayStreamingComponent, "UnregisterRayStreamingComponent" }, // 180438961
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingComponent_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_URayStreamingComponent_Statics::Class_MetaDataParams[] = {
 		{ "BlueprintSpawnableComponent", "" },
@@ -986,42 +1018,42 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnConnected = { "OnConnected", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(URayStreamingComponent, OnConnected), Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectedSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnConnected_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnConnected_MetaData)) }; // 1581877018
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnConnected = { "OnConnected", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(URayStreamingComponent, OnConnected), Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectedSignature__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnConnected_MetaData), Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnConnected_MetaData) }; // 617132679
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnConnectionError_MetaData[] = {
 		{ "Category", "RayStreaming" },
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnConnectionError = { "OnConnectionError", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(URayStreamingComponent, OnConnectionError), Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnConnectionError_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnConnectionError_MetaData)) }; // 3803526383
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnConnectionError = { "OnConnectionError", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(URayStreamingComponent, OnConnectionError), Z_Construct_UDelegateFunction_RayStreamingForUE_OnConnectionErrorSignature__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnConnectionError_MetaData), Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnConnectionError_MetaData) }; // 2327248601
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnClosed_MetaData[] = {
 		{ "Category", "RayStreaming" },
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnClosed = { "OnClosed", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(URayStreamingComponent, OnClosed), Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnClosed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnClosed_MetaData)) }; // 2047575759
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnClosed = { "OnClosed", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(URayStreamingComponent, OnClosed), Z_Construct_UDelegateFunction_RayStreamingForUE_OnClosedSignature__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnClosed_MetaData), Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnClosed_MetaData) }; // 3228269238
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnMessage_MetaData[] = {
 		{ "Category", "RayStreaming" },
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnMessage = { "OnMessage", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(URayStreamingComponent, OnMessage), Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnMessage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnMessage_MetaData)) }; // 2264326433
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnMessage = { "OnMessage", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(URayStreamingComponent, OnMessage), Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSignature__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnMessage_MetaData), Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnMessage_MetaData) }; // 4025601280
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnRawMessage_MetaData[] = {
 		{ "Category", "RayStreaming" },
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnRawMessage = { "OnRawMessage", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(URayStreamingComponent, OnRawMessage), Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnRawMessage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnRawMessage_MetaData)) }; // 3137956764
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnRawMessage = { "OnRawMessage", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(URayStreamingComponent, OnRawMessage), Z_Construct_UDelegateFunction_RayStreamingForUE_OnRawMessageSignature__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnRawMessage_MetaData), Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnRawMessage_MetaData) }; // 918924710
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnMessageSent_MetaData[] = {
 		{ "Category", "RayStreaming" },
 		{ "ModuleRelativePath", "Public/RayStreamingComponent.h" },
 	};
 #endif
-	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnMessageSent = { "OnMessageSent", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(URayStreamingComponent, OnMessageSent), Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature, METADATA_PARAMS(Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnMessageSent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnMessageSent_MetaData)) }; // 3659814618
+	const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnMessageSent = { "OnMessageSent", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(URayStreamingComponent, OnMessageSent), Z_Construct_UDelegateFunction_RayStreamingForUE_OnMessageSentSignature__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnMessageSent_MetaData), Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnMessageSent_MetaData) }; // 3918521023
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_URayStreamingComponent_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnConnected,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_URayStreamingComponent_Statics::NewProp_OnConnectionError,
@@ -1046,8 +1078,9 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 		UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingComponent_Statics::PropPointers),
 		0,
 		0x00B000A4u,
-		METADATA_PARAMS(Z_Construct_UClass_URayStreamingComponent_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingComponent_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingComponent_Statics::Class_MetaDataParams), Z_Construct_UClass_URayStreamingComponent_Statics::Class_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingComponent_Statics::PropPointers) < 2048);
 	UClass* Z_Construct_UClass_URayStreamingComponent()
 	{
 		if (!Z_Registration_Info_UClass_URayStreamingComponent.OuterSingleton)
@@ -1061,15 +1094,15 @@ void FOnMessageSentSignature_DelegateWrapper(const FMulticastScriptDelegate& OnM
 		return URayStreamingComponent::StaticClass();
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(URayStreamingComponent);
-	struct Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingComponent_h_Statics
+	struct Z_CompiledInDeferFile_FID_RayvisionWebsocket_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingComponent_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_URayStreamingComponent, URayStreamingComponent::StaticClass, TEXT("URayStreamingComponent"), &Z_Registration_Info_UClass_URayStreamingComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(URayStreamingComponent), 3977800036U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_RayvisionWebsocket_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingComponent_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_URayStreamingComponent, URayStreamingComponent::StaticClass, TEXT("URayStreamingComponent"), &Z_Registration_Info_UClass_URayStreamingComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(URayStreamingComponent), 1650804594U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingComponent_h_1423111072(TEXT("/Script/RayStreamingForUE"),
-		Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingComponent_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_RayvisionWebsocket_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingComponent_h_2276786212(TEXT("/Script/RayStreamingForUE"),
+		Z_CompiledInDeferFile_FID_RayvisionWebsocket_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_RayvisionWebsocket_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

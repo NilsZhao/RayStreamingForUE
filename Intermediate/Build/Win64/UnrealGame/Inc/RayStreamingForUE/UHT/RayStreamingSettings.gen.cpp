@@ -74,6 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeRayStreamingSettings() {}
 		(UObject* (*)())Z_Construct_UClass_UDeveloperSettings,
 		(UObject* (*)())Z_Construct_UPackage__Script_RayStreamingForUE,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingSettings_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_URayStreamingSettings_Statics::Class_MetaDataParams[] = {
 		{ "DisplayName", "RayStreaming" },
@@ -91,7 +92,7 @@ void EmptyLinkFunctionForGeneratedCodeRayStreamingSettings() {}
 	{
 		((URayStreamingSettings*)Obj)->bAutoConnect = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bAutoConnect = { "bAutoConnect", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(URayStreamingSettings), &Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bAutoConnect_SetBit, METADATA_PARAMS(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bAutoConnect_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bAutoConnect_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bAutoConnect = { "bAutoConnect", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(URayStreamingSettings), &Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bAutoConnect_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bAutoConnect_MetaData), Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bAutoConnect_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableLocalTest_MetaData[] = {
 		{ "Category", "RayStreaming" },
@@ -102,14 +103,14 @@ void EmptyLinkFunctionForGeneratedCodeRayStreamingSettings() {}
 	{
 		((URayStreamingSettings*)Obj)->bEnableLocalTest = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableLocalTest = { "bEnableLocalTest", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(URayStreamingSettings), &Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableLocalTest_SetBit, METADATA_PARAMS(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableLocalTest_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableLocalTest_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableLocalTest = { "bEnableLocalTest", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(URayStreamingSettings), &Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableLocalTest_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableLocalTest_MetaData), Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableLocalTest_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_TestUrl_MetaData[] = {
 		{ "Category", "RayStreaming" },
 		{ "ModuleRelativePath", "Public/RayStreamingSettings.h" },
 	};
 #endif
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_TestUrl = { "TestUrl", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(URayStreamingSettings, TestUrl), METADATA_PARAMS(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_TestUrl_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_TestUrl_MetaData)) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_TestUrl = { "TestUrl", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(URayStreamingSettings, TestUrl), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_TestUrl_MetaData), Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_TestUrl_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableAutoReconnect_MetaData[] = {
 		{ "Category", "RayStreaming" },
@@ -120,14 +121,14 @@ void EmptyLinkFunctionForGeneratedCodeRayStreamingSettings() {}
 	{
 		((URayStreamingSettings*)Obj)->bEnableAutoReconnect = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableAutoReconnect = { "bEnableAutoReconnect", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(URayStreamingSettings), &Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableAutoReconnect_SetBit, METADATA_PARAMS(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableAutoReconnect_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableAutoReconnect_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableAutoReconnect = { "bEnableAutoReconnect", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(URayStreamingSettings), &Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableAutoReconnect_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableAutoReconnect_MetaData), Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableAutoReconnect_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_ReconnectInterval_MetaData[] = {
 		{ "Category", "RayStreaming" },
 		{ "ModuleRelativePath", "Public/RayStreamingSettings.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_ReconnectInterval = { "ReconnectInterval", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(URayStreamingSettings, ReconnectInterval), METADATA_PARAMS(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_ReconnectInterval_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_ReconnectInterval_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_ReconnectInterval = { "ReconnectInterval", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(URayStreamingSettings, ReconnectInterval), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_ReconnectInterval_MetaData), Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_ReconnectInterval_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bUseRayStreamingInput_MetaData[] = {
 		{ "Category", "RayStreaming" },
@@ -138,7 +139,7 @@ void EmptyLinkFunctionForGeneratedCodeRayStreamingSettings() {}
 	{
 		((URayStreamingSettings*)Obj)->bUseRayStreamingInput = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bUseRayStreamingInput = { "bUseRayStreamingInput", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(URayStreamingSettings), &Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bUseRayStreamingInput_SetBit, METADATA_PARAMS(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bUseRayStreamingInput_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bUseRayStreamingInput_MetaData)) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bUseRayStreamingInput = { "bUseRayStreamingInput", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(URayStreamingSettings), &Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bUseRayStreamingInput_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bUseRayStreamingInput_MetaData), Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bUseRayStreamingInput_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableWebCommand_MetaData[] = {
 		{ "Category", "RayStreaming" },
@@ -149,8 +150,8 @@ void EmptyLinkFunctionForGeneratedCodeRayStreamingSettings() {}
 	{
 		((URayStreamingSettings*)Obj)->bEnableWebCommand = 1;
 	}
-	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableWebCommand = { "bEnableWebCommand", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(URayStreamingSettings), &Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableWebCommand_SetBit, METADATA_PARAMS(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableWebCommand_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableWebCommand_MetaData)) };
-	const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_PermittedConsoleCommands_Inner = { "PermittedConsoleCommands", nullptr, (EPropertyFlags)0x0000000000004000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, 0, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableWebCommand = { "bEnableWebCommand", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(URayStreamingSettings), &Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableWebCommand_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableWebCommand_MetaData), Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableWebCommand_MetaData) };
+	const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_PermittedConsoleCommands_Inner = { "PermittedConsoleCommands", nullptr, (EPropertyFlags)0x0000000000004000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_PermittedConsoleCommands_MetaData[] = {
 		{ "Category", "RayStreaming" },
@@ -158,7 +159,7 @@ void EmptyLinkFunctionForGeneratedCodeRayStreamingSettings() {}
 		{ "ModuleRelativePath", "Public/RayStreamingSettings.h" },
 	};
 #endif
-	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_PermittedConsoleCommands = { "PermittedConsoleCommands", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(URayStreamingSettings, PermittedConsoleCommands), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_PermittedConsoleCommands_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_PermittedConsoleCommands_MetaData)) };
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_PermittedConsoleCommands = { "PermittedConsoleCommands", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(URayStreamingSettings, PermittedConsoleCommands), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_PermittedConsoleCommands_MetaData), Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_PermittedConsoleCommands_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_URayStreamingSettings_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bAutoConnect,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_URayStreamingSettings_Statics::NewProp_bEnableLocalTest,
@@ -186,8 +187,9 @@ void EmptyLinkFunctionForGeneratedCodeRayStreamingSettings() {}
 		UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingSettings_Statics::PropPointers),
 		0,
 		0x001000A6u,
-		METADATA_PARAMS(Z_Construct_UClass_URayStreamingSettings_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingSettings_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingSettings_Statics::Class_MetaDataParams), Z_Construct_UClass_URayStreamingSettings_Statics::Class_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_URayStreamingSettings_Statics::PropPointers) < 2048);
 	UClass* Z_Construct_UClass_URayStreamingSettings()
 	{
 		if (!Z_Registration_Info_UClass_URayStreamingSettings.OuterSingleton)
@@ -202,15 +204,15 @@ void EmptyLinkFunctionForGeneratedCodeRayStreamingSettings() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(URayStreamingSettings);
 	URayStreamingSettings::~URayStreamingSettings() {}
-	struct Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingSettings_h_Statics
+	struct Z_CompiledInDeferFile_FID_RayvisionWebsocket_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingSettings_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingSettings_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_URayStreamingSettings, URayStreamingSettings::StaticClass, TEXT("URayStreamingSettings"), &Z_Registration_Info_UClass_URayStreamingSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(URayStreamingSettings), 1701276840U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_RayvisionWebsocket_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingSettings_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_URayStreamingSettings, URayStreamingSettings::StaticClass, TEXT("URayStreamingSettings"), &Z_Registration_Info_UClass_URayStreamingSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(URayStreamingSettings), 4086787767U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingSettings_h_2023648165(TEXT("/Script/RayStreamingForUE"),
-		Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UETestProject_eee_GO_WWW_RayStreamingForUE_HostProject_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingSettings_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_RayvisionWebsocket_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingSettings_h_1145716611(TEXT("/Script/RayStreamingForUE"),
+		Z_CompiledInDeferFile_FID_RayvisionWebsocket_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_RayvisionWebsocket_Plugins_RayStreamingForUE_Source_RayStreamingForUE_Public_RayStreamingSettings_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

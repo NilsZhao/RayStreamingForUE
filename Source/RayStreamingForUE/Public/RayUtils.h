@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "UObject/Object.h"
-#include "Engine/Classes/Engine/EngineBaseTypes.h"
+#include "Engine/EngineBaseTypes.h"
 #include "InputCoreTypes.h"
 #include "RayUtils.generated.h"
 
