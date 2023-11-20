@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\ue5project\\rayvisionwebsocket\\plugins\\raystreamingforue\\intermediate\\build\\win64\\unrealeditor\\inc\\raystreamingforue\\uht\\raystreamingcomponent.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\ue5project\\rayvisionwebsocket\\intermediate\\build\\win64\\x64\\rayvisionwebsocketeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "e:\\ue5project\\rayvisionwebsocket\\plugins\\raystreamingforue\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\raystreamingforue\\definitions.raystreamingforue.h",
+            "e:\\ue5project\\rayvisionwebsocket\\plugins\\raystreamingforue\\source\\raystreamingforue\\public\\raystreamingcomponent.h",
+            "e:\\ue5project\\rayvisionwebsocket\\plugins\\raystreamingforue\\intermediate\\build\\win64\\unrealeditor\\inc\\raystreamingforue\\uht\\raystreamingcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
